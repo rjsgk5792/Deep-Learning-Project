@@ -35,3 +35,8 @@ YOLO 모델이 약 15배가량 FPS 성능이 높게 나오는 결과를 얻었�
 YOLO v4 + DEEPSORT : https://github.com/theAIGuysCode/yolov4-deepsort/tree/9e745bfb3ea5e7c7505cb11a8e8654f5b1319ad9
 
 DETR : https://arxiv.org/pdf/2005.12872v3.pdf
+
+## 아쉬운 점
+- Transformer 모델 특성상 많은 데이터의 학습이 동반되어야 큰 물체에서 효과적인 객체 탐지 성능을 발휘하는데 이 점을 충족시키지 못했기 때문에 YOLO 모델보다 낮은 성능을 보여줬을 것이라 예상
+- Transformer 기반의 MOTR 객체 추적 알고리즘까지 구현하고 싶었지만 시간 상의 이유로 구현하지 못함
+- 사전 학습된 가중치가 아닌 실제 데이터로 학습시켜 객체 탐지를 수행하지 못해 아쉽지만 짧은 시간 내에 객체 탐지에는 성공해서 만족스러운 결과
