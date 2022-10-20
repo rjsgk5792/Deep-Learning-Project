@@ -35,7 +35,3 @@ YOLO 모델이 약 15배가량 FPS 성능이 높게 나오는 결과를 얻었�
 YOLO v4 + DEEPSORT : https://github.com/theAIGuysCode/yolov4-deepsort/tree/9e745bfb3ea5e7c7505cb11a8e8654f5b1319ad9
 
 DETR : https://arxiv.org/pdf/2005.12872v3.pdf
-
-## 
-- YOLO + DEEPSORT
-- Transformer 
